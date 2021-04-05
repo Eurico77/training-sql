@@ -1,5 +1,5 @@
--- CRIANDO A TABELA ESTADO
-create table estados (
+-- CRIANDO A TABELA ESTADO --
+CREATE TABLE estados (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     nome VARCHAR(45) NOT NULL,
     sigla VARCHAR(2) NOT NULL,
@@ -9,3 +9,4 @@ create table estados (
     UNIQUE KEY (nome),
     UNIQUE KEY (sigla)
 );
+
